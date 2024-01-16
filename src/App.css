@@ -1,0 +1,115 @@
+.test1{
+    opacity: 0;
+    /* background: red; */
+}
+
+.test2{
+    opacity: 1;
+}
+
+.bg{
+    background-color: #f1f1f1;
+    color: aliceblue;
+}
+
+.h2::before{
+  content: "";
+  
+  height: 20px;
+  width: 5px;
+
+  position: absolute;
+  left: -10px;
+
+  background: red;
+
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+
+  animation-name: anime;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+}
+
+@keyframes anime {
+    0%{
+        background: yellow;
+    }
+    10%{
+        background: gray;
+    }
+    20%{
+        background: white;
+    }
+    30%{
+        background: #000;
+        transform: scale(1.1);
+    }
+}
+
+.nav > *:hover{
+    transition: all .3s;
+    cursor: pointer;
+    color: #f1f1f1;
+}
+
+.nav > *{
+    letter-spacing: 1px;
+}
+
+.view{
+    animation-name: home;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes home {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(30px);
+        opacity: .4;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.type::after{
+  content: "";
+  position: absolute;
+  top: 3px;
+
+  width: 3px;
+  height: 20px;
+  margin-left: 2px;
+
+
+  animation-name: type;
+  animation-duration: .7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+@keyframes type {
+    0%{
+        background: #000;
+    }
+    100%{
+        background: transparent;
+    }
+}
+
+.nav-small{
+    background: #000000cb;
+}
+
+.menu{
+    background: #000000c9;
+}
