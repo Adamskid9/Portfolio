@@ -13,11 +13,13 @@ function Nav() {
     const skill = document.querySelector('.skill');
     const Project = document.querySelector('.project');
     const home = document.querySelector('body');
+    const contact = document.querySelector('.contact');
 
     if (one===0) return home.scrollIntoView({ behavior: 'smooth' });
     if (one===1) return about.scrollIntoView({ behavior: 'smooth' });
     if (one===2) return skill.scrollIntoView({ behavior: 'smooth' });
     if (one===3) return Project.scrollIntoView({ behavior: 'smooth' });
+    if (one===4) return contact.scrollIntoView({ behavior: 'smooth' });
 
 
   },[one])
@@ -32,10 +34,10 @@ function Nav() {
             <div onClick={()=>setOne(1)}>About Me</div>
             <div onClick={()=>setOne(2)}>Skills</div>
             <div onClick={()=>setOne(3)}>Project</div>
-            <div>Contact</div>
+            <div onClick={()=>setOne(4)}>Contact</div>
           </div>
 
-          <div className="bg-blue-500 text-[#f1f1f1] px-3 py-1 rounded-full"><a href="mailto:ajaniadam9@gmail.com">Say Hi</a></div>
+          <button className="bg-blue-500 text-[#f1f1f1] px-3 py-1 rounded-full"><a href="mailto:ajaniadam9@gmail.com">Say Hi</a></button>
         </div>
 
 
@@ -57,7 +59,7 @@ function Nav() {
                     <div onClick={()=>setOne(1)}>About Me</div>
                     <div onClick={()=>setOne(2)}>Skills</div>
                     <div onClick={()=>setOne(3)}>Project</div>
-                    <div>Contact</div>
+                    <div onClick={()=>setOne(4)}>Contact</div>
                   </div>
 
                </div>

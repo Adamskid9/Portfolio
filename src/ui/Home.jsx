@@ -2,6 +2,7 @@ import { GoArrowDownRight } from "react-icons/go";
 import Social from "./Social"
 
 import { useEffect, useState } from "react";
+import { IoMailOutline } from "react-icons/io5";
 
 function Home({test}) {
     const [goTo,setGoTo] = useState("");
@@ -72,7 +73,7 @@ function Home({test}) {
                   <Social num={4}/>
               </ul>
 
-              <div className="text-base mt-10 font-garamond tracking-[2px] cursor-pointer  font-[600]"><a href="mailto:ajaniadam9@gmail.com">ajaniadam9@gmail.com</a></div>
+              <div className="text-base mt-10 flex items-center space-x-2 font-garamond tracking-[2px] cursor-pointer  font-[500]"><IoMailOutline/><a href="mailto:ajaniadam9@gmail.com">ajaniadam9@gmail.com</a></div>
 
               <button onClick={()=>setGoTo(cur=>cur+1)} className="capitalize begin font-bold text-[#f1f1f1] mt-7 flex items-center bg-blue-500 px-3 py-2 rounded-full">let's begin <GoArrowDownRight className="ml-1 text-base"/></button>
 

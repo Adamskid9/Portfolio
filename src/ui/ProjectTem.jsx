@@ -16,10 +16,10 @@ function ProjectTem({img,text,head,list,code,live}) {
                 }
              </ul>
            <div className="sm:w-[80%] w-[90%] flex items-center justify-between">
-             <div className="border-[1px] px-3 py-1 cursor-pointer rounded-lg
-              flex items-center"><a href={`${code}`} className="flex"><IoLogoGithub className="mr-2 text-2xl"/>Code</a></div>
-             <div className="bg-blue-400 py-1 font-[500] capitalize text-black px-2
-              cursor-pointer rounded-lg"><a href={`${live}`}>Live Demo</a></div>
+             <button className="border-[1px] px-3 py-1 cursor-pointer rounded-lg
+              flex items-center"><a href={`${code}`} className="flex"><IoLogoGithub className="mr-2 text-2xl"/>Code</a></button>
+             <button className="bg-blue-400 py-1 font-[500] capitalize text-black px-2
+              cursor-pointer rounded-lg"><a href={`${live}`}>Live Demo</a></button>
           </div>
         
         </div>

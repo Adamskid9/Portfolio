@@ -29,7 +29,7 @@ function About() {
 
              <div className="self-center text-4xl font-transparent">about me</div>
                 
-             <div className="flexl flex-co space-y-10 font-garamond text-base px-5">  
+             <div className="flexl flex-co space-y-10 font-garamond lg:text-lg text-base px-5">  
                 
                   <div>
                    i'm passionate, self-proclaimed designer who specializes in frontend development (React.js)
@@ -60,7 +60,7 @@ function About() {
                 </div>
 
                 <div className="sm:flex justify-between mt-5 space-y-5 sm:space-y-0">
-                    <TopAbout icon={<IoMailOutline className="mr-2"/>} header={"email"} text={<a href="mailto:contact.ajaniadam9@gmail.com">ajaniadam9@gmail.com</a>}/>
+                    <TopAbout icon={<IoMailOutline className="mr-2"/>} header={"email"} low={"lowercase"} text={<a href="mailto:contact.ajaniadam9@gmail.com">ajaniadam9@gmail.com</a>}/>
                     <TopAbout icon={<IoBriefcaseOutline className="mr-2"/>} header={"Employment"} text={"Available"}/>
                 </div>                
               </div>

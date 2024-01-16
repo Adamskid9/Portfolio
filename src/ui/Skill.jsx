@@ -27,7 +27,7 @@ function Skill() {
         <section className="bg-yellow-500d transition-all duration-1000 skill my-5 mt-28 flex flex-col space-y-3">
 
             <div className="capitalize flex items-center text-black justify-center text-4xl font-[600] font-garamond ">
-                my <span className="font-transparent ml-2">Skills</span>
+                my <span className="font-transparent  ml-2">Skills</span>
             </div>
               
             <div className=" text-black flex flex-wrap">
