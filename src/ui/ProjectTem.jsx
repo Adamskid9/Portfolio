@@ -15,7 +15,7 @@ function ProjectTem({img,text,head,list,code,live}) {
                     list.map(((value,i)=><li key={i+1} className="text-[#f1f1f1] font-serif text-sm sm:text-base md:mt-1 lg:mt-0  bg-blue-800 px-2 py-[2px] rounded-full">{value}</li>))
                 }
              </ul>
-           <div className="w-[80%] flex items-center justify-between">
+           <div className="sm:w-[80%] w-[90%] flex items-center justify-between">
              <div className="border-[1px] px-3 py-1 cursor-pointer rounded-lg
               flex items-center"><a href={`${code}`} className="flex"><IoLogoGithub className="mr-2 text-2xl"/>Code</a></div>
              <div className="bg-blue-400 py-1 font-[500] capitalize text-black px-2

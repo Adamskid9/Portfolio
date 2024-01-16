@@ -33,7 +33,7 @@ function Skill() {
             <div className=" text-black flex flex-wrap">
                 {
                     SkillsList.map((value,i)=><div key={i+1} className="h-[150px] bg-red-500s basis-1/2 sm:basis-1/5">
-                        <div className="bg-green-500s  m-1 w-full flex justify-center items-center h-full">{value}</div>
+                        <div className="bg-green-500s text-sm sm:text-base m-1 w-full flex justify-center items-center h-full">{value}</div>
                     </div>)
                 }
             </div>
