@@ -7,12 +7,12 @@ function ProjectTem({img,text,head,list,code,live}) {
           <img className="h-[250px] cursor-pointer hover:scale-[1.05] 
           transition-all duration-500 rounded-md md:w-[300px] lg:w-[400px] w-[400px]" src={`${img}`} alt="" />
 
-          <div className={`flex-col ml-10 flex  space-y-5`}>
+          <div className={`flex-col ml-5 sm:ml-10 flex  space-y-5`}>
             <h1 className="text-2xl font-mono">{head}</h1>
             <p className="w-[80%] text-base sm:text-lg font-garamond ">{text}</p>
              <ul className="flex items-center space-x-1  sm:space-x-3 flex-wrap">
                 {
-                    list.map(((value,i)=><li key={i+1} className="text-[#f1f1f1] font-serif  md:mt-1 lg:mt-0  bg-blue-800 px-2 py-[2px] rounded-full">{value}</li>))
+                    list.map(((value,i)=><li key={i+1} className="text-[#f1f1f1] font-serif text-sm sm:text-base md:mt-1 lg:mt-0  bg-blue-800 px-2 py-[2px] rounded-full">{value}</li>))
                 }
              </ul>
            <div className="w-[80%] flex items-center justify-between">

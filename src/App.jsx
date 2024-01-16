@@ -35,12 +35,12 @@ function App() {
     threshold: 0.3,
   });
 
-   [skill,about].map(val=>sectionObserver.observe(val));
+   [skill,about,project].map(val=>sectionObserver.observe(val));
 
   },[]);
 
   return (
-    <div className="px-5 flex-col flex py-5 sm:px-5 lg:px-16 sm:py-10 bg-green-50s bg">
+    <div className="px-3 flex-col flex py-5 sm:px-5 lg:px-16 sm:py-10 bg-green-50s bg">
        <Nav/>
        <Home/>
        <About/>
