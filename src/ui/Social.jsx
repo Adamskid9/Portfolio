@@ -10,13 +10,13 @@ import { IoLogoSass } from "react-icons/io5";
 function Social({num,style}) {
     return (<>
         {num===1&&<li className="border-[1px] border-black p-1 cursor-pointer hover:bg-gray-500">
-           <a href="discordapp.com/users/1025085120719356024"><img src={"public/social/discord.png"} className="h-[30px] w-[30px]" alt=""/></a>
+           <a href="discordapp.com/users/1025085120719356024"><img src={"/social/discord.png"} className="h-[30px] w-[30px]" alt=""/></a>
         </li>}
         {num===2&&<li className="border-[1px] border-black p-1 cursor-pointer hover:bg-gray-500">
-           <a href="https://x.com/Ajaniadam1?t=I0Ze6Ll-B-rfEPIqgTQgpg&s=09"><img src={"public/social/x.png"} className="h-[30px] w-[30px]" alt=""/></a>
+           <a href="https://x.com/Ajaniadam1?t=I0Ze6Ll-B-rfEPIqgTQgpg&s=09"><img src={"/social/x.png"} className="h-[30px] w-[30px]" alt=""/></a>
         </li>}
         {num===3&&<li className="border-[1px] border-black p-1 cursor-pointer hover:bg-gray-500">
-           <a href="https://github.com/Adamskid9"><img src={"public/social/github.png"} className="h-[30px] w-[30px]" alt=""/></a> 
+           <a href="https://github.com/Adamskid9"><img src={"/social/github.png"} className="h-[30px] w-[30px]" alt=""/></a> 
         </li>}
         {num===4&&<li className="border-[1px] border-black p-1 cursor-pointer hover:bg-gray-500">
            <a href="https://www.facebook.com/adam.ajani.54"> <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" 

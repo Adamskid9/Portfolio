@@ -35,7 +35,7 @@ function App() {
     threshold: 0.3,
   });
 
-   [skill,about,project].map(val=>sectionObserver.observe(val));
+   [skill,about].map(val=>sectionObserver.observe(val));
 
   },[]);
 

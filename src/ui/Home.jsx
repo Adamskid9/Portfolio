@@ -60,9 +60,9 @@ function Home({test}) {
         <section className={` text-black home view text-sm mt-24 flex flex-col sm:flex-row ${test}  space-x-2 ring-2s ring-red-500 transition-all duration-1000`}>
 
            <div className="risng-1 ring-blue-500 basis-2/4 self-center justify-self-center">
-              <div className="text-5xl  font-changa font-[500] ">I'm <span className="font-transparent capitalize me"></span> </div>
-              <div className="text-3xl mt-3 font-mono"><span className="font-transparent frontend"></span> Developer</div>
-              <div className="text-xl mt-5 font-garamond">Creating clean, engaging web experiences with efficiency and precision.<br/>
+              <div className="text-4xl  font-changa font-[500] ">I'm <span className="font-transparent capitalize me"></span> </div>
+              <div className="text-2xl mt-3 font-mono"><span className="font-transparent frontend"></span> Developer</div>
+              <div className="text-lg mt-5 font-garamond">Creating clean, engaging web experiences with efficiency and precision.<br/>
                <span className="create type relative"></span></div>
 
               <ul className="flex space-x-3 text-base items-center justify-start mt-10">

@@ -2,35 +2,6 @@
 import ProjectTem from "./ProjectTem"
 
 function Project() {
-   
-    // useEffect(function(){
-    //     const project = document.querySelector(".project");
-
-    //     const revealSection = function (entries, observer) {
-    //     const [entry] = entries;
-    //     const {target} = entry;
-    
-    //     console.log(target,entry)
-       
-
-    //     target.classList.remove("view");
-    
-    //     if (!entry.isIntersecting) return;
-        
-    //     target.classList.add("view");
-    //   };
-
-    //   const sectionObserver = new IntersectionObserver(revealSection, {
-    //     root: null,
-    //     threshold: 0.1,
-    //   });
-    
-    //    [project].map(val=>sectionObserver.observe(val));
-
-
-    
-    //   },[]);
-
 
 
     return (
